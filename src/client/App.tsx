@@ -1,9 +1,11 @@
 import React from 'react';
 
+import styles from './App.module.css';
+
 const App = () => {
     return (
         <div>
-            <p>Hey, it works!</p>
+            <p className={styles.test}>Hey, it works!</p>
         </div>
     )
 };
